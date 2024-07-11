@@ -1,0 +1,1512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>4edda530-2840-4391-973c-e91793af7afe</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>2.36064in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.36064in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.38958in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>2.46131cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Rectangle Name="Rectangle1">
+                          <ReportItems>
+                            <Rectangle Name="Rectangle5">
+                              <ReportItems>
+                                <Textbox Name="ItemDesc5">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!ItemDesc1.Value</Value>
+                                          <Style>
+                                            <FontSize>8pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>ItemDesc1</rd:DefaultName>
+                                  <Top>0.055in</Top>
+                                  <Left>0.0493in</Left>
+                                  <Height>0.20765in</Height>
+                                  <Width>2.31134in</Width>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>3pt</PaddingLeft>
+                                    <PaddingRight>1pt</PaddingRight>
+                                    <PaddingTop>3pt</PaddingTop>
+                                    <PaddingBottom>1pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox16">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">K </Value>
+                                          <Style>
+                                            <FontSize>21pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                            <Format>#,0;(#,0)</Format>
+                                          </Style>
+                                        </TextRun>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!Price1.Value</Value>
+                                          <Style>
+                                            <FontSize>21pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                            <Format>#,0;(#,0)</Format>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox14</rd:DefaultName>
+                                  <Top>0.78556in</Top>
+                                  <Left>0.0493in</Left>
+                                  <Height>0.18346in</Height>
+                                  <Width>1.5639in</Width>
+                                  <ZIndex>1</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <BackgroundColor>Gold</BackgroundColor>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox1">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">/</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!UMO1.Value</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox1</rd:DefaultName>
+                                  <Top>0.90082in</Top>
+                                  <Left>1.62708in</Left>
+                                  <Height>0.0557in</Height>
+                                  <Width>0.73356in</Width>
+                                  <ZIndex>2</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox12">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!Variant1.Value</Value>
+                                          <Style>
+                                            <FontSize>6pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox12</rd:DefaultName>
+                                  <Top>0.26959in</Top>
+                                  <Left>0.08124in</Left>
+                                  <Height>0.10347in</Height>
+                                  <Width>0.8771in</Width>
+                                  <ZIndex>3</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox23">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!ContentSize1.Value</Value>
+                                          <Style>
+                                            <FontSize>6pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Center</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox23</rd:DefaultName>
+                                  <Top>0.26959in</Top>
+                                  <Left>1.17986in</Left>
+                                  <Height>0.10347in</Height>
+                                  <Width>0.6875in</Width>
+                                  <ZIndex>4</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox9">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!PrintDate.Value</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                            <Format>MM/dd/yyyy</Format>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox4</rd:DefaultName>
+                                  <Top>0.70224in</Top>
+                                  <Left>0.41041in</Left>
+                                  <Height>0.07639in</Height>
+                                  <Width>0.65278in</Width>
+                                  <ZIndex>5</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox10">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">Print :</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox7</rd:DefaultName>
+                                  <Top>0.70224in</Top>
+                                  <Left>0.0493in</Left>
+                                  <Height>0.07639in</Height>
+                                  <Width>0.36111in</Width>
+                                  <ZIndex>6</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox6">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!BarcodeLines1.Value</Value>
+                                          <Style>
+                                            <FontFamily>Code128bWin</FontFamily>
+                                            <FontSize>12pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox6</rd:DefaultName>
+                                  <Top>0.37306in</Top>
+                                  <Left>0.57639in</Left>
+                                  <Height>0.24862in</Height>
+                                  <Width>1.73564in</Width>
+                                  <ZIndex>7</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox14">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!BarcodeNumber1.Value</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox14</rd:DefaultName>
+                                  <Top>0.61057in</Top>
+                                  <Left>0.96216in</Left>
+                                  <Height>0.07639in</Height>
+                                  <Width>0.9052in</Width>
+                                  <ZIndex>8</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                              </ReportItems>
+                              <KeepTogether>true</KeepTogether>
+                              <Height>0.96902in</Height>
+                              <Width>2.36064in</Width>
+                              <Visibility>
+                                <Hidden>=IIF((Fields!Price1.Value &gt; 0),FALSE,TRUE)</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>Solid</Style>
+                                </Border>
+                                <TopBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </TopBorder>
+                                <BottomBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </BottomBorder>
+                                <LeftBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </LeftBorder>
+                                <RightBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </RightBorder>
+                              </Style>
+                            </Rectangle>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                          </Style>
+                        </Rectangle>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Rectangle Name="Rectangle3">
+                          <ReportItems>
+                            <Rectangle Name="Rectangle6">
+                              <ReportItems>
+                                <Textbox Name="ItemDesc6">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!ItemDesc2.Value</Value>
+                                          <Style>
+                                            <FontSize>8pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>ItemDesc1</rd:DefaultName>
+                                  <Top>0.055in</Top>
+                                  <Left>0.0493in</Left>
+                                  <Height>0.20765in</Height>
+                                  <Width>2.31134in</Width>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>3pt</PaddingLeft>
+                                    <PaddingRight>1pt</PaddingRight>
+                                    <PaddingTop>3pt</PaddingTop>
+                                    <PaddingBottom>1pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox17">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">K </Value>
+                                          <Style>
+                                            <FontSize>21pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                            <Format>#,0;(#,0)</Format>
+                                          </Style>
+                                        </TextRun>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!Price2.Value</Value>
+                                          <Style>
+                                            <FontSize>21pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                            <Format>#,0;(#,0)</Format>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox14</rd:DefaultName>
+                                  <Top>0.78556in</Top>
+                                  <Left>0.0493in</Left>
+                                  <Height>0.18346in</Height>
+                                  <Width>1.5639in</Width>
+                                  <ZIndex>1</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <BackgroundColor>Gold</BackgroundColor>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox2">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">/</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!UOM2.Value</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox2</rd:DefaultName>
+                                  <Top>0.90082in</Top>
+                                  <Left>1.62708in</Left>
+                                  <Height>0.0557in</Height>
+                                  <Width>0.73356in</Width>
+                                  <ZIndex>2</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox15">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!Variant2.Value</Value>
+                                          <Style>
+                                            <FontSize>6pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox15</rd:DefaultName>
+                                  <Top>0.26959in</Top>
+                                  <Left>0.08124in</Left>
+                                  <Height>0.10347in</Height>
+                                  <Width>0.8771in</Width>
+                                  <ZIndex>3</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox24">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!ContentSize2.Value</Value>
+                                          <Style>
+                                            <FontSize>6pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Center</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox24</rd:DefaultName>
+                                  <Top>0.26959in</Top>
+                                  <Left>1.17986in</Left>
+                                  <Height>0.10347in</Height>
+                                  <Width>0.6875in</Width>
+                                  <ZIndex>4</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox7">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">Print :</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox7</rd:DefaultName>
+                                  <Top>0.70224in</Top>
+                                  <Left>0.0493in</Left>
+                                  <Height>0.07639in</Height>
+                                  <Width>0.36111in</Width>
+                                  <ZIndex>5</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox4">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!PrintDate.Value</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                            <Format>MM/dd/yyyy</Format>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox4</rd:DefaultName>
+                                  <Top>0.70224in</Top>
+                                  <Left>0.41041in</Left>
+                                  <Height>0.07639in</Height>
+                                  <Width>0.65278in</Width>
+                                  <ZIndex>6</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox13">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!BarcodeLines2.Value</Value>
+                                          <Style>
+                                            <FontFamily>Code128bWin</FontFamily>
+                                            <FontSize>12pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox6</rd:DefaultName>
+                                  <Top>0.37306in</Top>
+                                  <Left>0.57639in</Left>
+                                  <Height>0.24862in</Height>
+                                  <Width>1.73564in</Width>
+                                  <ZIndex>7</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox20">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!BarcodeNumber2.Value</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox14</rd:DefaultName>
+                                  <Top>0.61057in</Top>
+                                  <Left>0.96216in</Left>
+                                  <Height>0.07639in</Height>
+                                  <Width>0.9052in</Width>
+                                  <ZIndex>8</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                              </ReportItems>
+                              <KeepTogether>true</KeepTogether>
+                              <Height>0.96902in</Height>
+                              <Width>2.36064in</Width>
+                              <Visibility>
+                                <Hidden>=IIF((Fields!Price1.Value &gt; 0), False, True)</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>Solid</Style>
+                                </Border>
+                                <TopBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </TopBorder>
+                                <BottomBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </BottomBorder>
+                                <LeftBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </LeftBorder>
+                                <RightBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </RightBorder>
+                              </Style>
+                            </Rectangle>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <Visibility>
+                            <Hidden>=IIF(Fields!ItemDesc2.Value="",True,False)</Hidden>
+                          </Visibility>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                          </Style>
+                        </Rectangle>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Rectangle Name="Rectangle2">
+                          <ReportItems>
+                            <Rectangle Name="Rectangle7">
+                              <ReportItems>
+                                <Textbox Name="ItemDesc7">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!ItemDesc3.Value</Value>
+                                          <Style>
+                                            <FontSize>8pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>ItemDesc1</rd:DefaultName>
+                                  <Top>0.055in</Top>
+                                  <Left>0.0493in</Left>
+                                  <Height>0.20765in</Height>
+                                  <Width>2.31134in</Width>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>3pt</PaddingLeft>
+                                    <PaddingRight>1pt</PaddingRight>
+                                    <PaddingTop>3pt</PaddingTop>
+                                    <PaddingBottom>1pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox18">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">K </Value>
+                                          <Style>
+                                            <FontSize>21pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                            <Format>#,0;(#,0)</Format>
+                                          </Style>
+                                        </TextRun>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!Price3.Value</Value>
+                                          <Style>
+                                            <FontSize>21pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                            <Format>#,0;(#,0)</Format>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox14</rd:DefaultName>
+                                  <Top>0.78556in</Top>
+                                  <Left>0.0493in</Left>
+                                  <Height>0.18346in</Height>
+                                  <Width>1.5639in</Width>
+                                  <ZIndex>1</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <BackgroundColor>Gold</BackgroundColor>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox3">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">/</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!UOM3.Value</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox3</rd:DefaultName>
+                                  <Top>0.90082in</Top>
+                                  <Left>1.62708in</Left>
+                                  <Height>0.0557in</Height>
+                                  <Width>0.73356in</Width>
+                                  <ZIndex>2</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox19">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!Variiant3.Value</Value>
+                                          <Style>
+                                            <FontSize>6pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox19</rd:DefaultName>
+                                  <Top>0.26959in</Top>
+                                  <Left>0.08124in</Left>
+                                  <Height>0.10347in</Height>
+                                  <Width>0.8771in</Width>
+                                  <ZIndex>3</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox25">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!ContentSize3.Value</Value>
+                                          <Style>
+                                            <FontSize>6pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Center</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox25</rd:DefaultName>
+                                  <Top>0.26959in</Top>
+                                  <Left>1.17986in</Left>
+                                  <Height>0.10347in</Height>
+                                  <Width>0.6875in</Width>
+                                  <ZIndex>4</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <VerticalAlign>Top</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox5">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!PrintDate.Value</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                            <Format>MM/dd/yyyy</Format>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox4</rd:DefaultName>
+                                  <Top>0.70224in</Top>
+                                  <Left>0.41041in</Left>
+                                  <Height>0.07639in</Height>
+                                  <Width>0.65278in</Width>
+                                  <ZIndex>5</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox8">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">Print :</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Left</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox7</rd:DefaultName>
+                                  <Top>0.70224in</Top>
+                                  <Left>0.0493in</Left>
+                                  <Height>0.07639in</Height>
+                                  <Width>0.36111in</Width>
+                                  <ZIndex>6</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <VerticalAlign>Bottom</VerticalAlign>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox21">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!BarcodeLines3.Value</Value>
+                                          <Style>
+                                            <FontFamily>Code128bWin</FontFamily>
+                                            <FontSize>12pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox6</rd:DefaultName>
+                                  <Top>0.37306in</Top>
+                                  <Left>0.57639in</Left>
+                                  <Height>0.24862in</Height>
+                                  <Width>1.73564in</Width>
+                                  <ZIndex>7</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox22">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value EvaluationMode="Auto">=Fields!BarcodeNumber3.Value</Value>
+                                          <Style>
+                                            <FontSize>7pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox14</rd:DefaultName>
+                                  <Top>0.61057in</Top>
+                                  <Left>0.96216in</Left>
+                                  <Height>0.07639in</Height>
+                                  <Width>0.9052in</Width>
+                                  <ZIndex>8</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                  </Style>
+                                </Textbox>
+                              </ReportItems>
+                              <KeepTogether>true</KeepTogether>
+                              <Height>0.96902in</Height>
+                              <Width>2.36064in</Width>
+                              <Visibility>
+                                <Hidden>=IIF((Fields!Price1.Value &gt; 0), False, True)</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>Solid</Style>
+                                </Border>
+                                <TopBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </TopBorder>
+                                <BottomBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </BottomBorder>
+                                <LeftBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </LeftBorder>
+                                <RightBorder>
+                                  <Color>Black</Color>
+                                  <Style>Solid</Style>
+                                  <Width>1pt</Width>
+                                </RightBorder>
+                              </Style>
+                            </Rectangle>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <Visibility>
+                            <Hidden>=IIF(Fields!ItemDesc3.Value="",True,False)</Hidden>
+                          </Visibility>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                          </Style>
+                        </Rectangle>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Visibility>
+                    <Hidden>=Fields!Show1.Value</Hidden>
+                  </Visibility>
+                </TablixMember>
+                <TablixMember>
+                  <Visibility>
+                    <Hidden>=Fields!Show2.Value</Hidden>
+                  </Visibility>
+                </TablixMember>
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet_Result</DataSetName>
+            <Filters>
+              <Filter>
+                <FilterExpression>=Fields!ItemNo1.Value</FilterExpression>
+                <Operator>NotEqual</Operator>
+                <FilterValues>
+                  <FilterValue>=Nothing</FilterValue>
+                </FilterValues>
+              </Filter>
+            </Filters>
+            <Top>0.05694in</Top>
+            <Left>0.30487in</Left>
+            <Height>2.46131cm</Height>
+            <Width>7.11086in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+        </ReportItems>
+        <Height>1.02596in</Height>
+        <Style />
+      </Body>
+      <Width>7.41573in</Width>
+      <Page>
+        <PageHeight>11.69in</PageHeight>
+        <PageWidth>8.27in</PageWidth>
+        <RightMargin>0.3in</RightMargin>
+        <TopMargin>0.3in</TopMargin>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Function BitmapBarcode(ByVal width As Integer, ByVal height As Integer, ByVal BarcodeLines As String, ByVal BarcodeNumber As String) As Byte() 
+    Dim objBitmap As System.Drawing.Bitmap 
+    Dim objGraphic As System.Drawing.Graphics
+    Dim font As New System.Drawing.Font("Arial", 8)
+    Dim point As New System.Drawing.PointF(1,height - 9)
+    Dim I As Integer
+    Dim offset As Integer
+    offset = 9
+' +4 for giving more space for chars
+    objBitmap = New System.Drawing.Bitmap(width, height + 4) 
+    objGraphic = System.Drawing.Graphics.FromImage(objBitmap)
+    objGraphic.Clear(System.Drawing.Color.White)    
+    For I = 1 to len(BarcodeLines)
+       if Mid(BarcodeLines, I, 1) = "0" 
+         objGraphic.DrawLine(System.Drawing.Pens.White, I + offset, 0, I + offset, height)
+       Else If Mid(BarcodeLines,I,1) = "1"
+          objGraphic.DrawLine(System.Drawing.Pens.Black, I + offset, 0, I + offset, height - 10)
+          Else
+             objGraphic.DrawLine(System.Drawing.Pens.Black, I + offset, 0, I + offset, height)
+       End If
+    Next I
+' Printing Nice string below barcode
+    objGraphic.DrawString(Mid(BarcodeNumber,1,1),font,System.Drawing.Brushes.Black,point)
+    point = New System.Drawing.PointF(14,height - 9)
+    objGraphic.DrawString(Mid(BarcodeNumber,2,6),font,System.Drawing.Brushes.Black,point)
+    point = New System.Drawing.PointF(width / 2 - 15,height - 9)
+    objGraphic.DrawString(Mid(BarcodeNumber,8,6),font,System.Drawing.Brushes.Black,point)
+' Saving to stream and converting to bytes array
+    Dim stream As System.IO.MemoryStream = New IO.MemoryStream 
+    Dim bitmapBytes As Byte() 
+    objBitmap.Save(stream, System.Drawing.Imaging.ImageFormat.Bmp) 
+    bitmapBytes = stream.ToArray 
+    stream.Close() 
+    objBitmap.Dispose() 
+    Return bitmapBytes 
+End Function 
+
+</Code>
+  <Language>=User!Language</Language>
+  <CodeModules>
+    <CodeModule>System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</CodeModule>
+  </CodeModules>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>ccbf84d9-c914-457e-9729-c71a6bdad800</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="ItemNo1">
+          <DataField>ItemNo1</DataField>
+        </Field>
+        <Field Name="ItemDesc1">
+          <DataField>ItemDesc1</DataField>
+        </Field>
+        <Field Name="Price1">
+          <DataField>Price1</DataField>
+        </Field>
+        <Field Name="Price1Format">
+          <DataField>Price1Format</DataField>
+        </Field>
+        <Field Name="UMO1">
+          <DataField>UMO1</DataField>
+        </Field>
+        <Field Name="BarcodeNo1">
+          <DataField>BarcodeNo1</DataField>
+        </Field>
+        <Field Name="Date1">
+          <DataField>Date1</DataField>
+        </Field>
+        <Field Name="Show1">
+          <DataField>Show1</DataField>
+        </Field>
+        <Field Name="StartingDate1">
+          <DataField>StartingDate1</DataField>
+        </Field>
+        <Field Name="EndingDate1">
+          <DataField>EndingDate1</DataField>
+        </Field>
+        <Field Name="Promotion1">
+          <DataField>Promotion1</DataField>
+        </Field>
+        <Field Name="Promotion1Format">
+          <DataField>Promotion1Format</DataField>
+        </Field>
+        <Field Name="ItemNo2">
+          <DataField>ItemNo2</DataField>
+        </Field>
+        <Field Name="ItemDesc2">
+          <DataField>ItemDesc2</DataField>
+        </Field>
+        <Field Name="Price2">
+          <DataField>Price2</DataField>
+        </Field>
+        <Field Name="Price2Format">
+          <DataField>Price2Format</DataField>
+        </Field>
+        <Field Name="UOM2">
+          <DataField>UOM2</DataField>
+        </Field>
+        <Field Name="BarcodeNo2">
+          <DataField>BarcodeNo2</DataField>
+        </Field>
+        <Field Name="Date2">
+          <DataField>Date2</DataField>
+        </Field>
+        <Field Name="Show2">
+          <DataField>Show2</DataField>
+        </Field>
+        <Field Name="StartingDate2">
+          <DataField>StartingDate2</DataField>
+        </Field>
+        <Field Name="EndingDate2">
+          <DataField>EndingDate2</DataField>
+        </Field>
+        <Field Name="Promotion2">
+          <DataField>Promotion2</DataField>
+        </Field>
+        <Field Name="Promotion2Format">
+          <DataField>Promotion2Format</DataField>
+        </Field>
+        <Field Name="ItemNo3">
+          <DataField>ItemNo3</DataField>
+        </Field>
+        <Field Name="ItemDesc3">
+          <DataField>ItemDesc3</DataField>
+        </Field>
+        <Field Name="Price3">
+          <DataField>Price3</DataField>
+        </Field>
+        <Field Name="Price3Format">
+          <DataField>Price3Format</DataField>
+        </Field>
+        <Field Name="UOM3">
+          <DataField>UOM3</DataField>
+        </Field>
+        <Field Name="BarcodeNo3">
+          <DataField>BarcodeNo3</DataField>
+        </Field>
+        <Field Name="Date3">
+          <DataField>Date3</DataField>
+        </Field>
+        <Field Name="Show3">
+          <DataField>Show3</DataField>
+        </Field>
+        <Field Name="StartingDate3">
+          <DataField>StartingDate3</DataField>
+        </Field>
+        <Field Name="EndingDate3">
+          <DataField>EndingDate3</DataField>
+        </Field>
+        <Field Name="Promotion3">
+          <DataField>Promotion3</DataField>
+        </Field>
+        <Field Name="Promotion3Format">
+          <DataField>Promotion3Format</DataField>
+        </Field>
+        <Field Name="Barcode1">
+          <DataField>Barcode1</DataField>
+        </Field>
+        <Field Name="Barcode2">
+          <DataField>Barcode2</DataField>
+        </Field>
+        <Field Name="Barcode3">
+          <DataField>Barcode3</DataField>
+        </Field>
+        <Field Name="Variant1">
+          <DataField>Variant1</DataField>
+        </Field>
+        <Field Name="Variant2">
+          <DataField>Variant2</DataField>
+        </Field>
+        <Field Name="Variiant3">
+          <DataField>Variiant3</DataField>
+        </Field>
+        <Field Name="BarcodeLines1">
+          <DataField>BarcodeLines1</DataField>
+        </Field>
+        <Field Name="BarcodeNumber1">
+          <DataField>BarcodeNumber1</DataField>
+        </Field>
+        <Field Name="BarcodeLines2">
+          <DataField>BarcodeLines2</DataField>
+        </Field>
+        <Field Name="BarcodeNumber2">
+          <DataField>BarcodeNumber2</DataField>
+        </Field>
+        <Field Name="BarcodeLines3">
+          <DataField>BarcodeLines3</DataField>
+        </Field>
+        <Field Name="BarcodeNumber3">
+          <DataField>BarcodeNumber3</DataField>
+        </Field>
+        <Field Name="Nprice1">
+          <DataField>Nprice1</DataField>
+        </Field>
+        <Field Name="Nprice1Format">
+          <DataField>Nprice1Format</DataField>
+        </Field>
+        <Field Name="Nprice2">
+          <DataField>Nprice2</DataField>
+        </Field>
+        <Field Name="Nprice2Format">
+          <DataField>Nprice2Format</DataField>
+        </Field>
+        <Field Name="CurrencyCodeG">
+          <DataField>CurrencyCodeG</DataField>
+        </Field>
+        <Field Name="ContentSize1">
+          <DataField>ContentSize1</DataField>
+        </Field>
+        <Field Name="ContentSize2">
+          <DataField>ContentSize2</DataField>
+        </Field>
+        <Field Name="ContentSize3">
+          <DataField>ContentSize3</DataField>
+        </Field>
+        <Field Name="PrintDate">
+          <DataField>PrintDate</DataField>
+        </Field>
+        <Field Name="L_ApplyFrom">
+          <DataField>L_ApplyFrom</DataField>
+        </Field>
+        <Field Name="L_ItemNo">
+          <DataField>L_ItemNo</DataField>
+        </Field>
+        <Field Name="FormatDecimal">
+          <DataField>FormatDecimal</DataField>
+        </Field>
+        <Field Name="L_Giathuong">
+          <DataField>L_Giathuong</DataField>
+        </Field>
+        <Field Name="L_Masp">
+          <DataField>L_Masp</DataField>
+        </Field>
+        <Field Name="L_To">
+          <DataField>L_To</DataField>
+        </Field>
+        <Field Name="L_D">
+          <DataField>L_D</DataField>
+        </Field>
+        <Field Name="L_DVT">
+          <DataField>L_DVT</DataField>
+        </Field>
+        <Field Name="L_GiaKM">
+          <DataField>L_GiaKM</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

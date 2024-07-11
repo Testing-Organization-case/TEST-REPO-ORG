@@ -1,0 +1,1073 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>635ad9c7-0516-4525-a36f-0002e5cc8f3d</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="Tablix4">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>3.47884cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>3.5423cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>3.51407cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>3.13566cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Rectangle Name="Rectangle2">
+                          <ReportItems>
+                            <Textbox Name="ItemNo1">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">Item No    :  </Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!ItemNo1.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>ItemNo1</rd:DefaultName>
+                              <Top>0.67247cm</Top>
+                              <Left>0.08333in</Left>
+                              <Height>0.5138cm</Height>
+                              <Width>3.09783cm</Width>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Price4">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!ItemDesc1.Value</Value>
+                                      <Style>
+                                        <FontSize>6pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Price1</rd:DefaultName>
+                              <Top>0.06667in</Top>
+                              <Left>0.08333in</Left>
+                              <Height>0.50314cm</Height>
+                              <Width>3.09783cm</Width>
+                              <ZIndex>1</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="ItemNo2">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">UOM         :  </Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!UMO1.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>ItemNo1</rd:DefaultName>
+                              <Top>1.22155cm</Top>
+                              <Left>0.08333in</Left>
+                              <Height>0.44989cm</Height>
+                              <Width>3.09783cm</Width>
+                              <ZIndex>2</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="ItemNo3">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!BarcodeNumber1.Value</Value>
+                                      <Style>
+                                        <FontFamily>Code 128</FontFamily>
+                                        <FontSize>18pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>ItemNo1</rd:DefaultName>
+                              <Top>1.81255cm</Top>
+                              <Left>0.08333in</Left>
+                              <Height>0.63333cm</Height>
+                              <Width>3.09783cm</Width>
+                              <ZIndex>3</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="ItemNo4">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!BarcodeNumber1.Value</Value>
+                                      <Style>
+                                        <FontFamily>Consolas</FontFamily>
+                                        <FontSize>8pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>ItemNo1</rd:DefaultName>
+                              <Top>2.40002cm</Top>
+                              <Left>0.08333in</Left>
+                              <Height>0.44989cm</Height>
+                              <Width>3.09783cm</Width>
+                              <ZIndex>4</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <ZIndex>2</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                          </Style>
+                        </Rectangle>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Rectangle Name="Rectangle3">
+                          <ReportItems>
+                            <Textbox Name="Price2">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">Item No    :  </Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!ItemNo2.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Price1</rd:DefaultName>
+                              <Top>0.275in</Top>
+                              <Left>0.075in</Left>
+                              <Height>0.45602cm</Height>
+                              <Width>3.17188cm</Width>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Price5">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!ItemDesc2.Value</Value>
+                                      <Style>
+                                        <FontSize>6pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Price1</rd:DefaultName>
+                              <Top>0.06667in</Top>
+                              <Left>0.075in</Left>
+                              <Height>0.50314cm</Height>
+                              <Width>3.17188cm</Width>
+                              <ZIndex>1</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Price7">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">UOM         :  </Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!UOM2.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Price1</rd:DefaultName>
+                              <Top>0.46601in</Top>
+                              <Left>0.075in</Left>
+                              <Height>0.45602cm</Height>
+                              <Width>3.13485cm</Width>
+                              <ZIndex>2</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="ItemNo5">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!BarcodeNumber2.Value</Value>
+                                      <Style>
+                                        <FontFamily>Code 128</FontFamily>
+                                        <FontSize>18pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>ItemNo1</rd:DefaultName>
+                              <Top>1.81115cm</Top>
+                              <Left>0.075in</Left>
+                              <Height>0.63333cm</Height>
+                              <Width>3.09783cm</Width>
+                              <ZIndex>3</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="ItemNo6">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!BarcodeNumber2.Value</Value>
+                                      <Style>
+                                        <FontFamily>Consolas</FontFamily>
+                                        <FontSize>8pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>ItemNo1</rd:DefaultName>
+                              <Top>2.39862cm</Top>
+                              <Left>0.075in</Left>
+                              <Height>0.44989cm</Height>
+                              <Width>3.09783cm</Width>
+                              <ZIndex>4</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <ZIndex>1</ZIndex>
+                          <Visibility>
+                            <Hidden>=IIF(Fields!ItemNo2.Value="",True,False)</Hidden>
+                          </Visibility>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                          </Style>
+                        </Rectangle>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Rectangle Name="Rectangle4">
+                          <ReportItems>
+                            <Textbox Name="Price3">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">Item No      :  </Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!ItemNo3.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Price1</rd:DefaultName>
+                              <Top>0.275in</Top>
+                              <Left>0.06806in</Left>
+                              <Height>0.45602cm</Height>
+                              <Width>3.19303cm</Width>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Price6">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!ItemDesc3.Value</Value>
+                                      <Style>
+                                        <FontSize>6pt</FontSize>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Price1</rd:DefaultName>
+                              <Top>0.06667in</Top>
+                              <Left>0.06806in</Left>
+                              <Height>0.50314cm</Height>
+                              <Width>3.19303cm</Width>
+                              <ZIndex>1</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Price8">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">UOM           :  </Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!UOM3.Value</Value>
+                                      <Style>
+                                        <FontSize>7pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>Price1</rd:DefaultName>
+                              <Top>0.46843in</Top>
+                              <Left>0.06806in</Left>
+                              <Height>0.44988cm</Height>
+                              <Width>3.17364cm</Width>
+                              <ZIndex>2</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="BarcodeNumber3">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!BarcodeNumber3.Value</Value>
+                                      <Style>
+                                        <FontFamily>Code 128</FontFamily>
+                                        <FontSize>18pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <Top>1.8055cm</Top>
+                              <Left>0.08194in</Left>
+                              <Height>0.63898cm</Height>
+                              <Width>3.09783cm</Width>
+                              <ZIndex>3</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="ItemNo8">
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value EvaluationMode="Auto">=Fields!BarcodeNumber3.Value</Value>
+                                      <Style>
+                                        <FontFamily>Consolas</FontFamily>
+                                        <FontSize>8pt</FontSize>
+                                        <Format>#,###.##</Format>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style>
+                                    <TextAlign>Left</TextAlign>
+                                  </Style>
+                                </Paragraph>
+                              </Paragraphs>
+                              <rd:DefaultName>ItemNo1</rd:DefaultName>
+                              <Top>2.39862cm</Top>
+                              <Left>0.08194in</Left>
+                              <Height>0.44989cm</Height>
+                              <Width>3.09783cm</Width>
+                              <ZIndex>4</ZIndex>
+                              <Visibility>
+                                <Hidden>=Fields!Show1.Value</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <VerticalAlign>Top</VerticalAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                            </Textbox>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <ZIndex>1</ZIndex>
+                          <Visibility>
+                            <Hidden>=IIF(Fields!ItemNo3.Value="",True,False)</Hidden>
+                          </Visibility>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1pt</Width>
+                            </RightBorder>
+                          </Style>
+                        </Rectangle>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Visibility>
+                    <Hidden>=Fields!Show1.Value</Hidden>
+                  </Visibility>
+                </TablixMember>
+                <TablixMember>
+                  <Visibility>
+                    <Hidden>=Fields!Show2.Value</Hidden>
+                  </Visibility>
+                </TablixMember>
+                <TablixMember>
+                  <Visibility>
+                    <Hidden>=Fields!Show3.Value</Hidden>
+                  </Visibility>
+                </TablixMember>
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details4" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet_Result</DataSetName>
+            <Filters>
+              <Filter>
+                <FilterExpression>=Fields!ItemNo3.Value</FilterExpression>
+                <Operator>NotEqual</Operator>
+                <FilterValues>
+                  <FilterValue>=Nothing</FilterValue>
+                </FilterValues>
+              </Filter>
+            </Filters>
+            <Top>0.02382in</Top>
+            <Left>0.09375in</Left>
+            <Height>3.13566cm</Height>
+            <Width>10.53521cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+        </ReportItems>
+        <Height>3.19616cm</Height>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BottomBorder>
+            <Color>Black</Color>
+            <Style>Solid</Style>
+            <Width>1pt</Width>
+          </BottomBorder>
+          <LeftBorder>
+            <Color>Black</Color>
+            <Style>Solid</Style>
+            <Width>1pt</Width>
+          </LeftBorder>
+        </Style>
+      </Body>
+      <Width>10.77334cm</Width>
+      <Page>
+        <PageHeight>500cm</PageHeight>
+        <PageWidth>11cm</PageWidth>
+        <LeftMargin>0.3cm</LeftMargin>
+        <RightMargin>0cm</RightMargin>
+        <TopMargin>0cm</TopMargin>
+        <BottomMargin>0cm</BottomMargin>
+        <ColumnSpacing>1.27cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Function BitmapBarcode(ByVal width As Integer, ByVal height As Integer, ByVal BarcodeLines As String, ByVal BarcodeNumber As String) As Byte() 
+    Dim objBitmap As System.Drawing.Bitmap 
+    Dim objGraphic As System.Drawing.Graphics
+    Dim font As New System.Drawing.Font("Arial", 8)
+    Dim point As New System.Drawing.PointF(1,height - 9)
+    Dim I As Integer
+    Dim offset As Integer
+    offset = 9
+' +4 for giving more space for chars
+    objBitmap = New System.Drawing.Bitmap(width, height + 4) 
+    objGraphic = System.Drawing.Graphics.FromImage(objBitmap)
+    objGraphic.Clear(System.Drawing.Color.White)    
+    For I = 1 to len(BarcodeLines)
+       if Mid(BarcodeLines, I, 1) = "0" 
+         objGraphic.DrawLine(System.Drawing.Pens.White, I + offset, 0, I + offset, height)
+      Else If Mid(BarcodeLines,I,1) = "1"
+          objGraphic.DrawLine(System.Drawing.Pens.Black, I + offset, 0, I + offset, height - 10)
+          Else
+             objGraphic.DrawLine(System.Drawing.Pens.Black, I + offset, 0, I + offset, height)
+       End If
+    Next I
+' Printing Nice string below barcode
+    objGraphic.DrawString(Mid(BarcodeNumber,1,1),font,System.Drawing.Brushes.Black,point)
+    point = New System.Drawing.PointF(14,height - 9)
+    objGraphic.DrawString(Mid(BarcodeNumber,2,6),font,System.Drawing.Brushes.Black,point)
+    point = New System.Drawing.PointF(width / 2 - 15,height - 9)
+    objGraphic.DrawString(Mid(BarcodeNumber,8,6),font,System.Drawing.Brushes.Black,point)
+' Saving to stream and converting to bytes array
+    Dim stream As System.IO.MemoryStream = New IO.MemoryStream 
+    Dim bitmapBytes As Byte() 
+    objBitmap.Save(stream, System.Drawing.Imaging.ImageFormat.Bmp) 
+    bitmapBytes = stream.ToArray 
+    stream.Close() 
+    objBitmap.Dispose() 
+    Return bitmapBytes 
+End Function 
+</Code>
+  <Language>=User!Language</Language>
+  <CodeModules>
+    <CodeModule>System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</CodeModule>
+  </CodeModules>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>bc66bb19-c278-4b1d-9368-b57f6b31d9c1</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="ItemNo1">
+          <DataField>ItemNo1</DataField>
+        </Field>
+        <Field Name="ItemDesc1">
+          <DataField>ItemDesc1</DataField>
+        </Field>
+        <Field Name="Price1">
+          <DataField>Price1</DataField>
+        </Field>
+        <Field Name="Price1Format">
+          <DataField>Price1Format</DataField>
+        </Field>
+        <Field Name="UMO1">
+          <DataField>UMO1</DataField>
+        </Field>
+        <Field Name="BarcodeNo1">
+          <DataField>BarcodeNo1</DataField>
+        </Field>
+        <Field Name="Date1">
+          <DataField>Date1</DataField>
+        </Field>
+        <Field Name="Show1">
+          <DataField>Show1</DataField>
+        </Field>
+        <Field Name="StartingDate1">
+          <DataField>StartingDate1</DataField>
+        </Field>
+        <Field Name="EndingDate1">
+          <DataField>EndingDate1</DataField>
+        </Field>
+        <Field Name="Promotion1">
+          <DataField>Promotion1</DataField>
+        </Field>
+        <Field Name="Promotion1Format">
+          <DataField>Promotion1Format</DataField>
+        </Field>
+        <Field Name="ItemNo2">
+          <DataField>ItemNo2</DataField>
+        </Field>
+        <Field Name="ItemDesc2">
+          <DataField>ItemDesc2</DataField>
+        </Field>
+        <Field Name="Price2">
+          <DataField>Price2</DataField>
+        </Field>
+        <Field Name="Price2Format">
+          <DataField>Price2Format</DataField>
+        </Field>
+        <Field Name="UOM2">
+          <DataField>UOM2</DataField>
+        </Field>
+        <Field Name="BarcodeNo2">
+          <DataField>BarcodeNo2</DataField>
+        </Field>
+        <Field Name="Date2">
+          <DataField>Date2</DataField>
+        </Field>
+        <Field Name="Show2">
+          <DataField>Show2</DataField>
+        </Field>
+        <Field Name="StartingDate2">
+          <DataField>StartingDate2</DataField>
+        </Field>
+        <Field Name="EndingDate2">
+          <DataField>EndingDate2</DataField>
+        </Field>
+        <Field Name="Promotion2">
+          <DataField>Promotion2</DataField>
+        </Field>
+        <Field Name="Promotion2Format">
+          <DataField>Promotion2Format</DataField>
+        </Field>
+        <Field Name="ItemNo3">
+          <DataField>ItemNo3</DataField>
+        </Field>
+        <Field Name="ItemDesc3">
+          <DataField>ItemDesc3</DataField>
+        </Field>
+        <Field Name="Price3">
+          <DataField>Price3</DataField>
+        </Field>
+        <Field Name="Price3Format">
+          <DataField>Price3Format</DataField>
+        </Field>
+        <Field Name="UOM3">
+          <DataField>UOM3</DataField>
+        </Field>
+        <Field Name="BarcodeNo3">
+          <DataField>BarcodeNo3</DataField>
+        </Field>
+        <Field Name="Date3">
+          <DataField>Date3</DataField>
+        </Field>
+        <Field Name="Show3">
+          <DataField>Show3</DataField>
+        </Field>
+        <Field Name="StartingDate3">
+          <DataField>StartingDate3</DataField>
+        </Field>
+        <Field Name="EndingDate3">
+          <DataField>EndingDate3</DataField>
+        </Field>
+        <Field Name="Promotion3">
+          <DataField>Promotion3</DataField>
+        </Field>
+        <Field Name="Promotion3Format">
+          <DataField>Promotion3Format</DataField>
+        </Field>
+        <Field Name="Barcode1">
+          <DataField>Barcode1</DataField>
+        </Field>
+        <Field Name="Barcode2">
+          <DataField>Barcode2</DataField>
+        </Field>
+        <Field Name="Barcode3">
+          <DataField>Barcode3</DataField>
+        </Field>
+        <Field Name="VendorNo1">
+          <DataField>VendorNo1</DataField>
+        </Field>
+        <Field Name="VendorNo2">
+          <DataField>VendorNo2</DataField>
+        </Field>
+        <Field Name="VendorNo3">
+          <DataField>VendorNo3</DataField>
+        </Field>
+        <Field Name="BarcodeLines1">
+          <DataField>BarcodeLines1</DataField>
+        </Field>
+        <Field Name="BarcodeNumber1">
+          <DataField>BarcodeNumber1</DataField>
+        </Field>
+        <Field Name="BarcodeLines2">
+          <DataField>BarcodeLines2</DataField>
+        </Field>
+        <Field Name="BarcodeNumber2">
+          <DataField>BarcodeNumber2</DataField>
+        </Field>
+        <Field Name="BarcodeLines3">
+          <DataField>BarcodeLines3</DataField>
+        </Field>
+        <Field Name="BarcodeNumber3">
+          <DataField>BarcodeNumber3</DataField>
+        </Field>
+        <Field Name="Nprice1">
+          <DataField>Nprice1</DataField>
+        </Field>
+        <Field Name="Nprice1Format">
+          <DataField>Nprice1Format</DataField>
+        </Field>
+        <Field Name="Nprice2">
+          <DataField>Nprice2</DataField>
+        </Field>
+        <Field Name="Nprice2Format">
+          <DataField>Nprice2Format</DataField>
+        </Field>
+        <Field Name="CurrencyCodeG">
+          <DataField>CurrencyCodeG</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

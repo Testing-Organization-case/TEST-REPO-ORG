@@ -1,0 +1,20 @@
+{
+    "json.schemas": [
+
+
+
+    ],
+    "al.codeAnalyzers": [
+
+    ],
+    "al.assemblyProbingPaths": [
+        ".netpackages",
+	"C:/Windows/Microsoft.NET/assembly"
+
+    ],
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "csharp.suppressBuildAssetsNotification": true,
+    "dotnet.symbolSearch.searchReferenceAssemblies": true,
+    "dotnet.server.waitForDebugger": true,
+    
+}

@@ -1,0 +1,24 @@
+{
+    "version": "0.2.1",
+    "configurations": [
+        {
+            "name": "Your own server",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://localhost",
+            "serverInstance": "UAT", //SHWEOHH 7049 // UAT 8049
+            "port": 8049,
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true,
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]//C:/Program Files/Microsoft Dynamics 365 Business Central/230/Service.netpackages
+}

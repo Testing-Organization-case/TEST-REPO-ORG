@@ -1,0 +1,50 @@
+{
+  "id": "4c97b76a-92f1-4fa0-8674-e0e1365e6fa7",
+  "name": "OP Customization",
+  "publisher": "NaviWorld Myanmar",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "Logo/NaviWorld-Logo-Large.png",
+  "dependencies": [
+    {
+      "id":  "5ecfc871-5d82-43f1-9c54-59685e82318d",
+      "publisher":  "LS Retail",
+      "name":  "LS Central",
+      "version":  "23.1.0.84"},
+      {
+        "id": "2a0547fa-f60f-401d-b1fe-c7c4be8fb230",
+        "publisher": "LS Retail",
+        "name": "LS Central System App",
+        "version": "23.1.0.84"
+      }
+   
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 70000,
+      "to": 70200
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": true
+  
+  },
+  "runtime": "12.0",
+  "target": "OnPrem",
+  "features": [
+    "NoImplicitWith"
+  ]
+  
+
+  
+}
