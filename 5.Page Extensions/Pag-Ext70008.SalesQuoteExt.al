@@ -13,12 +13,13 @@ pageextension 70008 SalesQuoteExt extends "Sales Quote"         //Created By MK
                 PromotedIsBig = true;
                 trigger OnAction()
                 var
-                    SOAttributeListL: Page SalesAttributeList;
+                //SOAttributeListL: Page SalesAttributeList;
                 begin
-                    CLEAR(SOAttributeListL);
-                    SOAttributeListL.SetSalesDocumentNo(Rec."No.");
-                    SOAttributeListL.EDITABLE(FALSE);
-                    SOAttributeListL.RUN;
+                    // CLEAR(SOAttributeListL);
+
+                    // SOAttributeListL.SetSalesDocumentNo(Rec."No.");
+                    // SOAttributeListL.EDITABLE(FALSE);
+                    // SOAttributeListL.RUN;
                 end;
             }
         }
